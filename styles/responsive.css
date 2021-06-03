@@ -1,0 +1,150 @@
+@media only screen and (max-width: 992px) {
+  .container-abot-ghaleb {
+    width: 100%;
+  }
+
+  .img-about-ghaleb {
+    width: 100%;
+  }
+
+  .footer-background {
+    height: 1029px;
+    background-size: 100% 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer-background {
+    background: linear-gradient(
+      to left,
+      #1dd5ea,
+      #22bddd,
+      #26a7d3,
+      #2e89c3,
+      #3277b8,
+      #375cac,
+      #3d419e
+    );
+    height: auto;
+  }
+
+  .footer-item {
+    margin: 2rem 0;
+  }
+
+  .main-prof {
+    display: none;
+  }
+
+  .menu-icon {
+    font-size: 2rem;
+  }
+  nav a {
+    font-size: 0.9rem;
+  }
+  .responsive-prof {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: rgb(233, 233, 233);
+    padding: 0.5rem 0;
+    border-radius: 10px;
+  }
+
+  .responsive-prof .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .responsive-prof .login-container a {
+    color: rgb(85, 85, 85);
+    font-size: 0.9rem;
+  }
+  .header-ul.active {
+      right: 0;
+  }
+  .header-ul {
+    position: fixed;
+    top: 0;
+    transition: 0.5s ease;
+    bottom: 0;
+    right: -280px;
+    width: 280px;
+    background-color: #3277b8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+  .header-ul li {
+    margin: 1rem 0;
+  }
+  .header-ul li a {
+    color: #ffffff;
+  }
+  .head-btn a {
+    display: block;
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+  }
+
+  .container-abot-ghaleb {
+    width: auto;
+  }
+
+  header {
+    background-size: cover;
+  }
+
+  .img-about-ghaleb {
+    display: block;
+    margin: 1rem auto;
+    height: 250px;
+  }
+
+  .about-ghaleb {
+    margin: 1rem 0;
+  }
+
+  .for-order {
+    order: 1;
+  }
+
+  .search-box input {
+    font-size: 15px;
+    height: 50px;
+  }
+
+  .search-box .search-btn {
+    height: 34px !important;
+    width: 34px !important;
+    font-size: 15px !important;
+    top: 33% !important;
+  }
+
+  .search-box .head-search {
+    height: 40px !important;
+    width: 40px !important;
+    top: 42% !important;
+  }
+  .discribtion-about-ghaleb {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .tab-ghaleb {
+    flex-wrap: wrap;
+  }
+
+  .khat {
+    display: none;
+  }
+
+  .slide-img {
+    height: auto;
+  }
+}
